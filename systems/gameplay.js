@@ -3,7 +3,6 @@ import { scene } from '../scene.js';
 import { getHandAnchor } from '../entities/bear.js';
 import { updateFish } from '../entities/fish.js';
 import { playSFX, sounds } from './audio.js';
-import { handleFishInteractions } from './gameplay.js';
 import * as TWEEN from 'tween';
 
 export function handleFishInteractions(bear, activeFishes, gameState, updateUIValues) {
